@@ -1,0 +1,34 @@
+.neon-grey {
+  .clock, .display, .themes {
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px $neon-grey,
+    0 0 82px $neon-grey,
+    0 0 92px $neon-grey,
+    0 0 102px $neon-grey,
+    0 0 151px $neon-grey;
+  }
+  .clock {
+    border: 5px solid $neon-grey;
+  }
+  .clock-face {
+    box-shadow: 1px 1px 50px #9e9e9e66;
+  }
+  .hand {
+    background: $neon-grey;
+    box-shadow: 0 0 2px #FFF, 0 0 6px $neon-grey, 0 0 18px $neon-grey;
+  }
+  .display {
+    text-shadow: 0 0 2px #FFF, 0 0 4px #FFF, 0 0 6px $neon-grey, 0 0 8px $neon-grey;
+    color: $neon-grey;
+  }
+  
+  .themes {
+    border: 1px solid $neon-grey;
+    & ul {
+      color: $neon-grey;
+    }
+  }
+}
