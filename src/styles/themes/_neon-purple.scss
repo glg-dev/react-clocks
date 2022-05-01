@@ -20,7 +20,7 @@
     background: $neon-purple;
     box-shadow: 0 0 2px #FFF, 0 0 6px $neon-purple, 0 0 18px $neon-purple;
   }
-  .display {
+  .display, .loading {
     text-shadow: 0 0 2px #FFF, 0 0 4px #FFF, 0 0 6px $neon-purple, 0 0 8px $neon-purple;
     color: $neon-purple;
   }
