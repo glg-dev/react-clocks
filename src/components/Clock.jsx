@@ -60,7 +60,7 @@ const Clock = () => {
         </div>
         {
           numeric && (
-            <div className="display">{numericDisplay}</div>
+            <div className="display neonText">{numericDisplay}</div>
           )
         }
       </div>

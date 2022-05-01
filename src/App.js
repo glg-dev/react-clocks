@@ -9,6 +9,9 @@ function App() {
 
   return (
     <div className="App">
+      <div className={theme}>
+      <h1 className='neonText'>What happens if you click ?</h1>
+      </div>
       <div id='wrapper' className={theme}>
         <Clock />
         <Themes />

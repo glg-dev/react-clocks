@@ -20,7 +20,7 @@
     background: $neon-yellow;
     box-shadow: 0 0 2px #FFF, 0 0 6px $neon-yellow, 0 0 18px $neon-yellow;
   }
-  .display, .loading {
+  h1, .display, .loading {
     text-shadow: 0 0 2px #FFF, 0 0 4px #FFF, 0 0 6px $neon-yellow, 0 0 8px $neon-yellow;
     color: $neon-yellow;
   }
@@ -30,5 +30,25 @@
     & ul {
       color: $neon-yellow;
     }
+  }
+  
+  .neonText {
+    animation: flicker 1.5s infinite alternate;
+    color: $neon-yellow;
+  }
+
+  @keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px neon-yellow,
+        0 0 80px neon-yellow,
+        0 0 90px neon-yellow,
+        0 0 100px neon-yellow,
+        0 0 150px neon-yellow;
+    }
+    20%, 24%, 55% {text-shadow: none;}    
   }
 }
