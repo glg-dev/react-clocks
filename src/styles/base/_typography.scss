@@ -6,16 +6,27 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   text-align: center;
+  @media screen and (max-width: 600px) {
+    font-size: 2rem;
+  }
+
 }
 
 .loading, .themes {
   font-family: 'Carme', sans-serif;
   font-size: 1.5rem;
+  @media screen and (max-width: 600px) {
+    font-size: 1rem;
+  }
 }
 
 .display {
   font-size: 2.5rem;
+  @media screen and (max-width: 600px) {
+    font-size: 2rem;
+  }
+
 }
 

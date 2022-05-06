@@ -2,7 +2,7 @@ body {
   background: rgba(0, 0, 0, 0.89);
   text-align: center;
   margin: 0;
-  min-height: 100vh;
+  padding: 2rem 2rem 0 2rem;
 }
 
 li {
@@ -10,7 +10,6 @@ li {
 }
 
 .App {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,5 +19,9 @@ li {
     justify-content: space-around;
     align-items: flex-start;
     gap: 10rem;
+    @media screen and (max-width: 940px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
   }
 }
